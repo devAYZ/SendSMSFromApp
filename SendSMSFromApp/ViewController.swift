@@ -9,13 +9,14 @@ import UIKit
 import MessageUI
 
 class ViewController: UIViewController {
-
+    
     //MARK: IBOutlets
     @IBOutlet weak var sendMsgBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        setupView()
     }
     
     func setupView() {
